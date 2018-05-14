@@ -1,0 +1,850 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B2D8F0020A7354500933E11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D8EFF20A7354500933E11 /* AppDelegate.m */; };
+		9B2D8F0820A7354800933E11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B2D8F0720A7354800933E11 /* Assets.xcassets */; };
+		9B2D8F1820A7354800933E11 /* GFLoanDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D8F1720A7354800933E11 /* GFLoanDemoUITests.m */; };
+		9B2D8F2F20A82C1700933E11 /* GFLRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D8F2E20A82C1700933E11 /* GFLRootViewController.m */; };
+		9B2D8F3820A82F9F00933E11 /* GFLBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D8F3720A82F9F00933E11 /* GFLBaseNavigationController.m */; };
+		9B2D8F3F20A8329600933E11 /* GFLBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D8F3E20A8329600933E11 /* GFLBaseTableViewController.m */; };
+		9B2D8F4220A8332500933E11 /* GFLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D8F4120A8332500933E11 /* GFLBaseViewController.m */; };
+		9B2D8F4520A8335300933E11 /* GFLLoanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D8F4420A8335300933E11 /* GFLLoanViewController.m */; };
+		9B2D8F5720A8353100933E11 /* GFLRefundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D8F5620A8353100933E11 /* GFLRefundViewController.m */; };
+		9B2D8F5A20A8355D00933E11 /* GFLFinanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D8F5920A8355D00933E11 /* GFLFinanceViewController.m */; };
+		9B2D8F5D20A8357A00933E11 /* GFLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D8F5C20A8357A00933E11 /* GFLMineViewController.m */; };
+		9B2D8F6420A8370A00933E11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D8F6220A8370A00933E11 /* main.m */; };
+		9B2D8F6520A8370A00933E11 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B2D8F6320A8370A00933E11 /* Info.plist */; };
+		9B2D8F6820A8754B00933E11 /* GFLLoanNewsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D8F6720A8754B00933E11 /* GFLLoanNewsViewModel.m */; };
+		9B377EF620A9E58600418539 /* GFLLoanNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B377EF520A9E58600418539 /* GFLLoanNewsModel.m */; };
+		9BF3FBC820A9F12200569991 /* GFLLoanMiddleContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3FBC720A9F12200569991 /* GFLLoanMiddleContent.m */; };
+		A11E8190AFE6CE774C6DD151 /* libPods-GFLoanDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD0BB81F288C3BC8A6D3707 /* libPods-GFLoanDemoUITests.a */; };
+		D37798FA35EC162D5365590A /* libPods-GFLoanDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE3DF946CB1057C95E6C60C /* libPods-GFLoanDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B2D8F1420A7354800933E11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B2D8EF320A7354500933E11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B2D8EFA20A7354500933E11;
+			remoteInfo = GFLoanDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BE3DF946CB1057C95E6C60C /* libPods-GFLoanDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GFLoanDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A2AFB6290EB539ED0F3DAB /* Pods-GFLoanDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFLoanDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GFLoanDemo/Pods-GFLoanDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7CD0BB81F288C3BC8A6D3707 /* libPods-GFLoanDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GFLoanDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		819C09E7081E961F96F81758 /* Pods-GFLoanDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFLoanDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GFLoanDemo/Pods-GFLoanDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9B2D8EFB20A7354500933E11 /* GFLoanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFLoanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B2D8EFE20A7354500933E11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B2D8EFF20A7354500933E11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B2D8F0720A7354800933E11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B2D8F1320A7354800933E11 /* GFLoanDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GFLoanDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B2D8F1720A7354800933E11 /* GFLoanDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFLoanDemoUITests.m; sourceTree = "<group>"; };
+		9B2D8F1920A7354800933E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B2D8F2D20A82C1700933E11 /* GFLRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFLRootViewController.h; sourceTree = "<group>"; };
+		9B2D8F2E20A82C1700933E11 /* GFLRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFLRootViewController.m; sourceTree = "<group>"; };
+		9B2D8F3020A82CA900933E11 /* GFLDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFLDefine.h; sourceTree = "<group>"; };
+		9B2D8F3120A82D9000933E11 /* GFLDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFLDemo.pch; sourceTree = "<group>"; };
+		9B2D8F3620A82F9F00933E11 /* GFLBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFLBaseNavigationController.h; sourceTree = "<group>"; };
+		9B2D8F3720A82F9F00933E11 /* GFLBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFLBaseNavigationController.m; sourceTree = "<group>"; };
+		9B2D8F3D20A8329600933E11 /* GFLBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFLBaseTableViewController.h; sourceTree = "<group>"; };
+		9B2D8F3E20A8329600933E11 /* GFLBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFLBaseTableViewController.m; sourceTree = "<group>"; };
+		9B2D8F4020A8332500933E11 /* GFLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFLBaseViewController.h; sourceTree = "<group>"; };
+		9B2D8F4120A8332500933E11 /* GFLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFLBaseViewController.m; sourceTree = "<group>"; };
+		9B2D8F4320A8335300933E11 /* GFLLoanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFLLoanViewController.h; sourceTree = "<group>"; };
+		9B2D8F4420A8335300933E11 /* GFLLoanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFLLoanViewController.m; sourceTree = "<group>"; };
+		9B2D8F5520A8353100933E11 /* GFLRefundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFLRefundViewController.h; sourceTree = "<group>"; };
+		9B2D8F5620A8353100933E11 /* GFLRefundViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFLRefundViewController.m; sourceTree = "<group>"; };
+		9B2D8F5820A8355D00933E11 /* GFLFinanceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFLFinanceViewController.h; sourceTree = "<group>"; };
+		9B2D8F5920A8355D00933E11 /* GFLFinanceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFLFinanceViewController.m; sourceTree = "<group>"; };
+		9B2D8F5B20A8357A00933E11 /* GFLMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFLMineViewController.h; sourceTree = "<group>"; };
+		9B2D8F5C20A8357A00933E11 /* GFLMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFLMineViewController.m; sourceTree = "<group>"; };
+		9B2D8F6220A8370A00933E11 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B2D8F6320A8370A00933E11 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B2D8F6620A8754B00933E11 /* GFLLoanNewsViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFLLoanNewsViewModel.h; sourceTree = "<group>"; };
+		9B2D8F6720A8754B00933E11 /* GFLLoanNewsViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFLLoanNewsViewModel.m; sourceTree = "<group>"; };
+		9B377EF420A9E58600418539 /* GFLLoanNewsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFLLoanNewsModel.h; sourceTree = "<group>"; };
+		9B377EF520A9E58600418539 /* GFLLoanNewsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFLLoanNewsModel.m; sourceTree = "<group>"; };
+		9BF3FBC620A9F12200569991 /* GFLLoanMiddleContent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFLLoanMiddleContent.h; sourceTree = "<group>"; };
+		9BF3FBC720A9F12200569991 /* GFLLoanMiddleContent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFLLoanMiddleContent.m; sourceTree = "<group>"; };
+		D7DB756F6BAFD0E62529F1A2 /* Pods-GFLoanDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFLoanDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GFLoanDemoUITests/Pods-GFLoanDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EC1FA9FE2D5EDDDE3D34E40A /* Pods-GFLoanDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFLoanDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GFLoanDemoUITests/Pods-GFLoanDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B2D8EF820A7354500933E11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37798FA35EC162D5365590A /* libPods-GFLoanDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B2D8F1020A7354800933E11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11E8190AFE6CE774C6DD151 /* libPods-GFLoanDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EED395624D26D62EFF71E02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				819C09E7081E961F96F81758 /* Pods-GFLoanDemo.debug.xcconfig */,
+				57A2AFB6290EB539ED0F3DAB /* Pods-GFLoanDemo.release.xcconfig */,
+				EC1FA9FE2D5EDDDE3D34E40A /* Pods-GFLoanDemoUITests.debug.xcconfig */,
+				D7DB756F6BAFD0E62529F1A2 /* Pods-GFLoanDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B2D8EF220A7354500933E11 = {
+			isa = PBXGroup;
+			children = (
+				9B2D8EFD20A7354500933E11 /* GFLoanDemo */,
+				9B2D8F1620A7354800933E11 /* GFLoanDemoUITests */,
+				9B2D8EFC20A7354500933E11 /* Products */,
+				6EED395624D26D62EFF71E02 /* Pods */,
+				FB6D7781CE2499ADDE868FC4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B2D8EFC20A7354500933E11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B2D8EFB20A7354500933E11 /* GFLoanDemo.app */,
+				9B2D8F1320A7354800933E11 /* GFLoanDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B2D8EFD20A7354500933E11 /* GFLoanDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9B2D8EFE20A7354500933E11 /* AppDelegate.h */,
+				9B2D8EFF20A7354500933E11 /* AppDelegate.m */,
+				9B2D8F2320A8297A00933E11 /* MainFrame */,
+				9B2D8F2420A8299E00933E11 /* Businese */,
+				9B2D8F2920A82A5600933E11 /* Utils */,
+				9B2D8F2A20A82ACE00933E11 /* Resource */,
+				9B2D8F2220A827BF00933E11 /* SupportingFiles */,
+				9B2D8F0720A7354800933E11 /* Assets.xcassets */,
+				9B2D8F6320A8370A00933E11 /* Info.plist */,
+				9B2D8F6220A8370A00933E11 /* main.m */,
+			);
+			path = GFLoanDemo;
+			sourceTree = "<group>";
+		};
+		9B2D8F1620A7354800933E11 /* GFLoanDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B2D8F1720A7354800933E11 /* GFLoanDemoUITests.m */,
+				9B2D8F1920A7354800933E11 /* Info.plist */,
+			);
+			path = GFLoanDemoUITests;
+			sourceTree = "<group>";
+		};
+		9B2D8F2220A827BF00933E11 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9B2D8F3120A82D9000933E11 /* GFLDemo.pch */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		9B2D8F2320A8297A00933E11 /* MainFrame */ = {
+			isa = PBXGroup;
+			children = (
+				9B2D8F2D20A82C1700933E11 /* GFLRootViewController.h */,
+				9B2D8F2E20A82C1700933E11 /* GFLRootViewController.m */,
+			);
+			path = MainFrame;
+			sourceTree = "<group>";
+		};
+		9B2D8F2420A8299E00933E11 /* Businese */ = {
+			isa = PBXGroup;
+			children = (
+				9B2D8F2520A829E000933E11 /* Loan */,
+				9B2D8F2620A82A1E00933E11 /* Refund */,
+				9B2D8F2720A82A4000933E11 /* Finance */,
+				9B2D8F2820A82A4500933E11 /* Mine */,
+			);
+			path = Businese;
+			sourceTree = "<group>";
+		};
+		9B2D8F2520A829E000933E11 /* Loan */ = {
+			isa = PBXGroup;
+			children = (
+				9B2D8F3920A831BE00933E11 /* ViewController */,
+				9B2D8F3C20A831EB00933E11 /* ViewModel */,
+				9B2D8F3B20A831D900933E11 /* View */,
+				9B2D8F3A20A831D200933E11 /* Model */,
+			);
+			path = Loan;
+			sourceTree = "<group>";
+		};
+		9B2D8F2620A82A1E00933E11 /* Refund */ = {
+			isa = PBXGroup;
+			children = (
+				9B2D8F4920A834B800933E11 /* ViewController */,
+				9B2D8F4720A834AE00933E11 /* ViewModel */,
+				9B2D8F4620A834A700933E11 /* View */,
+				9B2D8F4820A834B400933E11 /* Model */,
+			);
+			path = Refund;
+			sourceTree = "<group>";
+		};
+		9B2D8F2720A82A4000933E11 /* Finance */ = {
+			isa = PBXGroup;
+			children = (
+				9B2D8F4D20A834CC00933E11 /* ViewController */,
+				9B2D8F4B20A834C200933E11 /* ViewModel */,
+				9B2D8F4A20A834BE00933E11 /* View */,
+				9B2D8F4C20A834C800933E11 /* Model */,
+			);
+			path = Finance;
+			sourceTree = "<group>";
+		};
+		9B2D8F2820A82A4500933E11 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				9B2D8F5120A834E100933E11 /* ViewController */,
+				9B2D8F4F20A834D700933E11 /* ViewModel */,
+				9B2D8F4E20A834D300933E11 /* View */,
+				9B2D8F5020A834DD00933E11 /* Model */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		9B2D8F2920A82A5600933E11 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9B2D8F3220A82E9800933E11 /* BaseVC */,
+				9B2D8F2C20A82B7700933E11 /* Macros */,
+				9B2D8F2B20A82B6300933E11 /* Category */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9B2D8F2A20A82ACE00933E11 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		9B2D8F2B20A82B6300933E11 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		9B2D8F2C20A82B7700933E11 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				9B2D8F3020A82CA900933E11 /* GFLDefine.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		9B2D8F3220A82E9800933E11 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				9B2D8F3520A82F5000933E11 /* BaseTableViewController */,
+				9B2D8F3420A82F3F00933E11 /* BaseViewController */,
+				9B2D8F3320A82F1600933E11 /* BaseNavigitionController */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		9B2D8F3320A82F1600933E11 /* BaseNavigitionController */ = {
+			isa = PBXGroup;
+			children = (
+				9B2D8F3620A82F9F00933E11 /* GFLBaseNavigationController.h */,
+				9B2D8F3720A82F9F00933E11 /* GFLBaseNavigationController.m */,
+			);
+			path = BaseNavigitionController;
+			sourceTree = "<group>";
+		};
+		9B2D8F3420A82F3F00933E11 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9B2D8F4020A8332500933E11 /* GFLBaseViewController.h */,
+				9B2D8F4120A8332500933E11 /* GFLBaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		9B2D8F3520A82F5000933E11 /* BaseTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9B2D8F3D20A8329600933E11 /* GFLBaseTableViewController.h */,
+				9B2D8F3E20A8329600933E11 /* GFLBaseTableViewController.m */,
+			);
+			path = BaseTableViewController;
+			sourceTree = "<group>";
+		};
+		9B2D8F3920A831BE00933E11 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9B2D8F4320A8335300933E11 /* GFLLoanViewController.h */,
+				9B2D8F4420A8335300933E11 /* GFLLoanViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9B2D8F3A20A831D200933E11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9B377EF420A9E58600418539 /* GFLLoanNewsModel.h */,
+				9B377EF520A9E58600418539 /* GFLLoanNewsModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B2D8F3B20A831D900933E11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BF3FBC620A9F12200569991 /* GFLLoanMiddleContent.h */,
+				9BF3FBC720A9F12200569991 /* GFLLoanMiddleContent.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B2D8F3C20A831EB00933E11 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9B2D8F6620A8754B00933E11 /* GFLLoanNewsViewModel.h */,
+				9B2D8F6720A8754B00933E11 /* GFLLoanNewsViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9B2D8F4620A834A700933E11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B2D8F4720A834AE00933E11 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9B2D8F4820A834B400933E11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B2D8F4920A834B800933E11 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9B2D8F5520A8353100933E11 /* GFLRefundViewController.h */,
+				9B2D8F5620A8353100933E11 /* GFLRefundViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9B2D8F4A20A834BE00933E11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B2D8F4B20A834C200933E11 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9B2D8F4C20A834C800933E11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B2D8F4D20A834CC00933E11 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9B2D8F5820A8355D00933E11 /* GFLFinanceViewController.h */,
+				9B2D8F5920A8355D00933E11 /* GFLFinanceViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9B2D8F4E20A834D300933E11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B2D8F4F20A834D700933E11 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9B2D8F5020A834DD00933E11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B2D8F5120A834E100933E11 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9B2D8F5B20A8357A00933E11 /* GFLMineViewController.h */,
+				9B2D8F5C20A8357A00933E11 /* GFLMineViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FB6D7781CE2499ADDE868FC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3DF946CB1057C95E6C60C /* libPods-GFLoanDemo.a */,
+				7CD0BB81F288C3BC8A6D3707 /* libPods-GFLoanDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B2D8EFA20A7354500933E11 /* GFLoanDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B2D8F1C20A7354800933E11 /* Build configuration list for PBXNativeTarget "GFLoanDemo" */;
+			buildPhases = (
+				63351A107653B0707FA4832B /* [CP] Check Pods Manifest.lock */,
+				9B2D8EF720A7354500933E11 /* Sources */,
+				9B2D8EF820A7354500933E11 /* Frameworks */,
+				9B2D8EF920A7354500933E11 /* Resources */,
+				D5687B30787A7B0B6DDA5E1F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GFLoanDemo;
+			productName = GFLoanDemo;
+			productReference = 9B2D8EFB20A7354500933E11 /* GFLoanDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B2D8F1220A7354800933E11 /* GFLoanDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B2D8F1F20A7354800933E11 /* Build configuration list for PBXNativeTarget "GFLoanDemoUITests" */;
+			buildPhases = (
+				BC4B8BEA87E004210117937A /* [CP] Check Pods Manifest.lock */,
+				9B2D8F0F20A7354800933E11 /* Sources */,
+				9B2D8F1020A7354800933E11 /* Frameworks */,
+				9B2D8F1120A7354800933E11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B2D8F1520A7354800933E11 /* PBXTargetDependency */,
+			);
+			name = GFLoanDemoUITests;
+			productName = GFLoanDemoUITests;
+			productReference = 9B2D8F1320A7354800933E11 /* GFLoanDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B2D8EF320A7354500933E11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "王磊";
+				TargetAttributes = {
+					9B2D8EFA20A7354500933E11 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					9B2D8F1220A7354800933E11 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 9B2D8EFA20A7354500933E11;
+					};
+				};
+			};
+			buildConfigurationList = 9B2D8EF620A7354500933E11 /* Build configuration list for PBXProject "GFLoanDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B2D8EF220A7354500933E11;
+			productRefGroup = 9B2D8EFC20A7354500933E11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B2D8EFA20A7354500933E11 /* GFLoanDemo */,
+				9B2D8F1220A7354800933E11 /* GFLoanDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B2D8EF920A7354500933E11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2D8F6520A8370A00933E11 /* Info.plist in Resources */,
+				9B2D8F0820A7354800933E11 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B2D8F1120A7354800933E11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63351A107653B0707FA4832B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GFLoanDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC4B8BEA87E004210117937A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GFLoanDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5687B30787A7B0B6DDA5E1F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GFLoanDemo/Pods-GFLoanDemo-resources.sh",
+				"${PODS_ROOT}/YJBannerView/YJBannerView/Resource/YJBannerView.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YJBannerView.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GFLoanDemo/Pods-GFLoanDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B2D8EF720A7354500933E11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2D8F6420A8370A00933E11 /* main.m in Sources */,
+				9B2D8F5A20A8355D00933E11 /* GFLFinanceViewController.m in Sources */,
+				9B2D8F5D20A8357A00933E11 /* GFLMineViewController.m in Sources */,
+				9BF3FBC820A9F12200569991 /* GFLLoanMiddleContent.m in Sources */,
+				9B2D8F3F20A8329600933E11 /* GFLBaseTableViewController.m in Sources */,
+				9B2D8F2F20A82C1700933E11 /* GFLRootViewController.m in Sources */,
+				9B2D8F4520A8335300933E11 /* GFLLoanViewController.m in Sources */,
+				9B2D8F4220A8332500933E11 /* GFLBaseViewController.m in Sources */,
+				9B2D8F3820A82F9F00933E11 /* GFLBaseNavigationController.m in Sources */,
+				9B2D8F6820A8754B00933E11 /* GFLLoanNewsViewModel.m in Sources */,
+				9B2D8F0020A7354500933E11 /* AppDelegate.m in Sources */,
+				9B2D8F5720A8353100933E11 /* GFLRefundViewController.m in Sources */,
+				9B377EF620A9E58600418539 /* GFLLoanNewsModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B2D8F0F20A7354800933E11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2D8F1820A7354800933E11 /* GFLoanDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B2D8F1520A7354800933E11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B2D8EFA20A7354500933E11 /* GFLoanDemo */;
+			targetProxy = 9B2D8F1420A7354800933E11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9B2D8F1A20A7354800933E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B2D8F1B20A7354800933E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B2D8F1D20A7354800933E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 819C09E7081E961F96F81758 /* Pods-GFLoanDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GFLoanDemo/SupportingFiles/GFLDemo.pch";
+				INFOPLIST_FILE = GFLoanDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gfloan.demo.GFLoanDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9B2D8F1E20A7354800933E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57A2AFB6290EB539ED0F3DAB /* Pods-GFLoanDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GFLoanDemo/SupportingFiles/GFLDemo.pch";
+				INFOPLIST_FILE = GFLoanDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gfloan.demo.GFLoanDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9B2D8F2020A7354800933E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC1FA9FE2D5EDDDE3D34E40A /* Pods-GFLoanDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GFLoanDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gfloan.demo.GFLoanDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GFLoanDemo;
+			};
+			name = Debug;
+		};
+		9B2D8F2120A7354800933E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7DB756F6BAFD0E62529F1A2 /* Pods-GFLoanDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GFLoanDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gfloan.demo.GFLoanDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GFLoanDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B2D8EF620A7354500933E11 /* Build configuration list for PBXProject "GFLoanDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B2D8F1A20A7354800933E11 /* Debug */,
+				9B2D8F1B20A7354800933E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B2D8F1C20A7354800933E11 /* Build configuration list for PBXNativeTarget "GFLoanDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B2D8F1D20A7354800933E11 /* Debug */,
+				9B2D8F1E20A7354800933E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B2D8F1F20A7354800933E11 /* Build configuration list for PBXNativeTarget "GFLoanDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B2D8F2020A7354800933E11 /* Debug */,
+				9B2D8F2120A7354800933E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B2D8EF320A7354500933E11 /* Project object */;
+}

@@ -1,0 +1,34 @@
+PODS:
+  - FlexBoxLayout (0.8.0)
+  - KVOController (1.2.0)
+  - SDWebImage (4.2.3):
+    - SDWebImage/Core (= 4.2.3)
+  - SDWebImage/Core (4.2.3)
+  - YJBannerView (2.3.7)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - FlexBoxLayout
+  - KVOController
+  - SDWebImage
+  - YJBannerView
+  - YYModel (= 1.0.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FlexBoxLayout
+    - KVOController
+    - SDWebImage
+    - YJBannerView
+    - YYModel
+
+SPEC CHECKSUMS:
+  FlexBoxLayout: c9b33370cc9001dc9f4f1934972827bd6096f75e
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
+  YJBannerView: 286685800f382df0d0bcec9e55623e84a58c2cba
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 78a11e74020af5c6496662d0fb2485ca105f6ff2
+
+COCOAPODS: 1.5.2
