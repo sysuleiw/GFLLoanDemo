@@ -27,6 +27,16 @@
 2. 项目AppIcon和LaunchImage拿了平安贷款和招商银行的相关图标，特此说明
 3. 平时上班太忙，Demo做的还非常粗糙(注释不够详细，格式不一定都合理)，有问题尽量提Issue吧；
 
+## 程序运行截图
+![img](https://raw.githubusercontent.com/wiki/sysuleiw/GFLLoanDemo/Simulator%20Screen%20Shot%20-%20iPhone%206s%20-%202018-05-15%20at%2001.44.47.png)
+
+![img](https://raw.githubusercontent.com/wiki/sysuleiw/GFLLoanDemo/Simulator%20Screen%20Shot%20-%20iPhone%206s%20-%202018-05-15%20at%2001.45.09.png)
+
+![img](https://raw.githubusercontent.com/wiki/sysuleiw/GFLLoanDemo/Simulator%20Screen%20Shot%20-%20iPhone%206s%20-%202018-05-15%20at%2001.45.14.png)
+
+![img](https://raw.githubusercontent.com/wiki/sysuleiw/GFLLoanDemo/Simulator%20Screen%20Shot%20-%20iPhone%206s%20-%202018-05-15%20at%2001.45.16.png)
+
+![img](https://raw.githubusercontent.com/wiki/sysuleiw/GFLLoanDemo/Simulator%20Screen%20Shot%20-%20iPhone%206s%20-%202018-05-15%20at%2001.45.18.png)
 
 ------
 
